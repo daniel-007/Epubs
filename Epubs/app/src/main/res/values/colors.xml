@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#750e7e</color>
+    <color name="colorPrimaryDark">#55115b</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="dark_grey">#494949</color>
+    <color name="lightrose">#e6e1e3</color>
+    <color name="redrose">#e10083</color>
+    <color name="jakis">#f5ef96</color>
+</resources>

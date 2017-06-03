@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Epubs</string>
+    <string name="bpath">bpath</string>
+
+    <string name="error_cannotLoadState">Cannot load the application/book state</string>
+
+    <string name="ViewType">ViewType</string>
+
+    <string name="changeStyle">Zmień styl</string>
+    <string name="change_Font">Zmień czcionkę</string>
+    <string name="change_Font_Color">Kolor czcionki:</string>
+    <string-array name="ColorFont">
+        <item>Czarna</item>
+        <item>Czerwona</item>
+        <item>Zielona</item>
+        <item>Biała</item>
+        <item>Niebieska</item>
+        <item>Żółta</item>
+    </string-array>
+
+    <string name="blue_rgb">#0116b6</string>
+    <string name="red_rgb">#9f0808</string>
+    <string name="green_rgb">#16861a</string>
+    <string name="black_rgb">#55115b</string>
+    <string name="white_rgb">#ffffff</string>
+    <string name="yellow_rgb">#f5ef96</string>
+
+    <string name="error_CannotChangeStyle">Cannot Change Style!</string>
+
+    <string name="ChangeBackgroundColor">Kolor tła:</string>
+    <string-array name="ColorBack">
+        <item>Biały</item>
+        <item>Czerwony</item>
+        <item>Zielony</item>
+        <item>Czarny</item>
+        <item>Niebieski</item>
+        <item>Żółty</item>
+    </string-array>
+
+    <string name="ChangeFont">Czcionka:</string>
+    <string-array name="FontStyle">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+
+    <string name="Sans">Sans-serif</string>
+    <string name="Serif">Serif</string>
+    <string name="Monospace">Monospace</string>
+
+    <string name="FontSize">Rozmiwar czcionki:</string>
+    <string name="LineHeight">Wysokość linii:</string>
+    <string name="TextAlign">Położenie:</string>
+
+    <string-array name="testAlignOption">
+        <item>Po lewej</item>
+        <item>Wycentrowane</item>
+        <item>Po prawej</item>
+        <item>Wyjustowane</item>
+    </string-array>
+
+    <string name="Left_Align">Po lewo</string>
+    <string name="Center_Align">Centrum</string>
+    <string name="Right_Align">Po prawo</string>
+    <string name="DefaultSettings">Domyślne</string>
+    <string name="px">px</string>
+    <string name="open">Otwórz książkę</string>
+    <string name="Margin">Margines(px):</string>
+
+    <string-array name="FontSize">
+        <item>100%</item>
+        <item>125%</item>
+        <item>150%</item>
+        <item>175%</item>
+        <item>200%</item>
+        <item>90%</item>
+        <item>75%</item>
+    </string-array>
+    <string-array name="LineHeight">
+        <item>1em</item>
+        <item>1.25em</item>
+        <item>1.5em</item>
+        <item>1.75em</item>
+        <item>2em</item>
+        <item>0.9em</item>
+    </string-array>
+
+    <string name="Justify">Justuj</string>
+    <string-array name="Margin">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+
+   <string name="Show_Metadata">Pokaż dane</string>
+    <string name="Refresh">ROdśwież</string>
+    <string name="bookOpen">bookOpen</string>
+    <string name="Table_of_Contents">Spis treści</string>
+    <string name="Change_Size">Change Panel Size</string>
+
+    <string name="action_settings">Ustawienia</string>
+
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="url">url</string>
+    <string name="error_LoadPage">Can not load the page</string>
+    <string name="error_cannotTurnPage">Cannot turn Page!</string>
+
+    <string name="textOrHTML">text/html</string>
+
+    <string name="error_goToPage">goToPage error:</string>
+    <string name="full_path">full-path</string>
+    <string name="zip">.zip</string>
+    <string name="htmlBodyTableOpen">&lt;html&gt;&lt;body&gt;&lt;table&gt;</string>
+    <string name="titlesMeta">&lt;tr&gt;&lt;td&gt;Titles:&lt;/td&gt;</string>
+    <string name="authorsMeta">&lt;tr&gt;&lt;td&gt;Authors:&lt;/td&gt;</string>
+    <string name="contributorsMeta">&lt;tr&gt;&lt;td&gt;Contributors:&lt;/td&gt;</string>
+    <string name="languageMeta">&lt;tr&gt;&lt;td&gt;Language:&lt;/td&gt;&lt;td&gt;</string>
+    <string name="publishersMeta">&lt;tr&gt;&lt;td&gt;Publishers:&lt;/td&gt;</string>
+    <string name="typesMeta">&lt;tr&gt;&lt;td&gt;Types:&lt;/td&gt;</string>
+    <string name="descriptionsMeta">&lt;tr&gt;&lt;td&gt;Descriptions:&lt;/td&gt;</string>
+    <string name="rightsMeta">&lt;tr&gt;&lt;td&gt;Rights:&lt;/td&gt;</string>
+    <string name="tablebodyhtmlClose">&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="tocReference">&lt;tr&gt;&lt;td&gt;Table of Contents:&lt;/td&gt;</string>
+
+    <string name="CurrentPageBook">CurrentPageBook</string>
+    <string name="LanguageBook">LanguageBook</string>
+    <string name="pathBook">pathBook</string>
+    <string name="error_CannotCloseStream">Cannot close stream!</string>
+    <string name="Book_Stream">Book Stream</string>
+    <string name="nameEpub">nameEpub</string>
+
+    <string name="second">second</string>
+    <string name="time">time</string>
+
+
+
+
+
+
+
+
+</resources>
