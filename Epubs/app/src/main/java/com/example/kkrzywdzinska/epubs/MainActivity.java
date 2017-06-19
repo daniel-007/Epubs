@@ -6,6 +6,7 @@ import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -34,6 +35,17 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences preferences = getPreferences(MODE_PRIVATE);
         loadState(preferences);
         nawigator.loadViews(preferences);
+
+        final Intent intent = getIntent();
+        if (intent != null) {
+            final Uri bookUri = intent.getData();
+            if (bookUri != null) {
+                final String filePath = bookUri.getEncodedPath();
+                Log.d("PATH (Intent):", filePath);
+                nawigator.openBook(filePath, czyCzytane);
+            }
+        }
+
         if (panele == 0) {
             czyCzytane = 0;
             Intent goToChooser = new Intent(this, WyborPliku.class);
