@@ -9,8 +9,6 @@
         android:id="@+id/changeFontTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/songName"
         android:fontFamily="monospace"
         android:text="@string/change_Font_Color"
         android:textSize="18sp" />
@@ -19,20 +17,20 @@
         android:id="@+id/songName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/spinnerColor"
-        android:layout_marginTop="20dp"
         android:fontFamily="monospace"
         android:text="@string/ChangeBackgroundColor"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/spinnerBack"
+        android:layout_alignParentStart="true" />
 
     <Spinner
         android:id="@+id/spinnerBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:entries="@array/ColorBack"
-        android:layout_alignBaseline="@+id/songName"
-        android:layout_alignBottom="@+id/songName"
-        android:layout_alignStart="@+id/spinnerColor" />
+        android:layout_below="@+id/spinnerFS"
+        android:layout_alignStart="@+id/spinnerColor"
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/textView8"
@@ -40,21 +38,13 @@
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
         android:text="@string/Margin"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_below="@+id/spinnerBack"
-        android:layout_alignStart="@+id/songName"
-        android:layout_marginTop="18dp" />
+        android:textSize="18sp"
+        android:layout_below="@+id/changeFontTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="110dp" />
 
     <Spinner
         android:id="@+id/spinnerRight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:entries="@array/Margin"
-        android:layout_below="@+id/spinnerLeft"
-        android:layout_alignStart="@+id/spinnerLeft" />
-
-    <Spinner
-        android:id="@+id/spinnerLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:entries="@array/Margin"
@@ -62,23 +52,32 @@
         android:layout_alignParentEnd="true" />
 
     <Spinner
+        android:id="@+id/spinnerLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/Margin"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toStartOf="@+id/buttonDefault" />
+
+    <Spinner
         android:id="@+id/spinnerFS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:entries="@array/FontSize"
-        android:layout_alignTop="@+id/textView3"
-        android:layout_alignStart="@+id/spinnerLeft" />
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignEnd="@+id/spinnerBack" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
         android:fontFamily="monospace"
         android:text="@string/FontSize"
         android:textSize="18sp"
-        android:layout_below="@+id/spinnerRight"
-        android:layout_alignStart="@+id/textView8" />
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/changeFontTextView"
+        android:layout_alignParentStart="true" />
 
     <Spinner
         android:id="@+id/spinnerColor"
@@ -93,7 +92,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/DefaultSettings"
+        android:layout_marginBottom="59dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/spinnerBack" />
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

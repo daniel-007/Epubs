@@ -3,6 +3,7 @@ package com.example.kkrzywdzinska.epubs;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.view.MotionEventCompat;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;

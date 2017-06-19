@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.os.Environment;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,7 +24,6 @@ public class WyborPliku extends Activity {
     static List<String> names;
     ArrayAdapter<String> adapter;
     static File selected;
-    private int nBooks;
 
 
     @Override

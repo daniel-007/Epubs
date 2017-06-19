@@ -48,7 +48,7 @@
     <string name="Serif">Serif</string>
     <string name="Monospace">Monospace</string>
 
-    <string name="FontSize">Rozmiwar czcionki:</string>
+    <string name="FontSize">Rozmiar czcionki:</string>
     <string name="LineHeight">Wysokość linii:</string>
     <string name="TextAlign">Położenie:</string>
 
@@ -97,7 +97,7 @@
 
 
    <string name="Show_Metadata">Pokaż dane</string>
-    <string name="Refresh">ROdśwież</string>
+    <string name="Refresh">Odśwież</string>
     <string name="bookOpen">bookOpen</string>
     <string name="Table_of_Contents">Spis treści</string>
     <string name="Change_Size">Change Panel Size</string>
@@ -108,8 +108,8 @@
     <string name="Cancel">Cancel</string>
 
     <string name="url">url</string>
-    <string name="error_LoadPage">Can not load the page</string>
-    <string name="error_cannotTurnPage">Cannot turn Page!</string>
+    <string name="error_LoadPage">Nie mozna zaladowac strony</string>
+    <string name="error_cannotTurnPage">Nie mozna przewrocic strony!</string>
 
     <string name="textOrHTML">text/html</string>
 
@@ -131,7 +131,7 @@
     <string name="CurrentPageBook">CurrentPageBook</string>
     <string name="LanguageBook">LanguageBook</string>
     <string name="pathBook">pathBook</string>
-    <string name="error_CannotCloseStream">Cannot close stream!</string>
+    <string name="error_CannotCloseStream">Nie mozna zamknac strumienia!</string>
     <string name="Book_Stream">Book Stream</string>
     <string name="nameEpub">nameEpub</string>
 
