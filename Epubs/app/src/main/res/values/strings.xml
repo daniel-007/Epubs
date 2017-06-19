@@ -137,12 +137,7 @@
 
     <string name="second">second</string>
     <string name="time">time</string>
-
-
-
-
-
-
+    <string name="books_list_header">Lista dostępnych książek:</string>
 
 
 </resources>

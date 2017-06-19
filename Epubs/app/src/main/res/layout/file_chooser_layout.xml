@@ -20,20 +20,19 @@
         android:headerDividersEnabled="true"
         android:theme="@style/Platform.ThemeOverlay.AppCompat.Dark"
         tools:background="?android:attr/searchWidgetCorpusItemBackground"
-        android:layout_below="@+id/editText"
-        ></ListView>
+        android:layout_below="@+id/file_chooser_list_header"
+        />
 
-    <EditText
-        android:id="@+id/editText"
+    <TextView
+        android:id="@+id/file_chooser_list_header"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:ems="10"
         android:fontFamily="monospace"
-        android:inputType="textPersonName"
-        android:text="Lista dostępnych książek:"
+        android:text="@string/books_list_header"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold" />
